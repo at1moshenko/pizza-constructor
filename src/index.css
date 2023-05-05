@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+footer {
+  background-color: wheat;
+  width: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#base,
+#sauce,
+#ingredient1,
+#ingredient2 {
+  height: 190px;
+  width: 180px;
+  text-align: center;
+}
+
+main {
+  background-color: wheat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prosmotrZakaza,
+.zakaz {
+  position: relative;
+  height: 50vh;
+  width: 40vw;
+  margin-top: 60px;
+}
+
+.zakaz {
+  display: flex;
+  justify-content: center;
+}
+
+.prosmotrZakaza {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.priceTwo {
+  text-align: center;
+  color: #ff8021;
+}
+
+p {
+  margin-top: 13px;
+  border: 1px solid;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+#btn:hover,
+p:hover {
+  background-color: #ff8021;
+  transition: background-color 0.5s ease, box-shadow 0.2s ease;
+  color: white;
+}
+
+#btn {
+  position: absolute;
+  bottom: 0;
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid #ff8021;
+  color: #ff8021;
+  cursor: pointer;
+}
+
+#img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#orderList {
+  position: absolute;
+  top: 55%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.style {
+  border: 1px solid #ff8021;
+  color: #ff8021;
+  background-color: rgb(245, 240, 240);
+  cursor: pointer;
+}
